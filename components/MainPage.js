@@ -1,7 +1,7 @@
 import Navbar from './Navbar.js';
 import About from './About.js';
 import Footer from './Footer.js';
-import Projects, {ProjectItems, handleProjectFilter} from './Projects.js';
+import Projects, {ProjectItems} from './Projects.js';
 
 
 export default function MainPage(data){
