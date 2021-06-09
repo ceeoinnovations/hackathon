@@ -9,7 +9,7 @@ export default function About(about){
                     <img src="${about[0].image1}" div class="project-img-holder">
                     <img src="${about[0].image2}" div class="project-img-holder">
                  </div>
-                 <button class="button" style="margin-top: 40px; margin-bottom: 100px;"><a href="${about[0].buttonlink}">${about[0].buttonlabel}</a></button>
+                 <button class="button" style="margin-top: 40px; margin-bottom: 100px;"><a href="${about[0].buttonlink}" target="_blank">${about[0].buttonlabel}</a></button>
         </div >    
     </section>`
 }
