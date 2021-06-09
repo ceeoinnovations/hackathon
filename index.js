@@ -2,18 +2,15 @@
 import MainPage from './components/MainPage.js';
 import ProjectPage from './components/ProjectPage.js';
 import Navbar from './components/Navbar.js';
-import People from './components/People.js';
 
 
 
 Promise.all([
-      d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vSDp2eohTdft9FqTUidRuLgD675fvlOm653imLF6lS5oAfjGZFkNzYmREdS5cu0yQvUeEhlqaD4TffR/pub?output=csv"),
-      d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTU27Jgb4L1K2x0BIIj_1ykcwRYBk7HYthA8dy5vqRgyxsj519xImlZAck34ju4hrDKJl0lhM5SDQM7/pub?output=csv"),
-      d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQka0KPDQVSEPrSg9So_KLygCMEzDKTY0zNPJJiK2zqQbN4ykQeNFkOl85DAs9l-xi3r0hMz9_qa1Ix/pub?output=csv"), 
-      d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRKR6OxmqVtY4axluhHwRsS7igl1X37l1Ect5g56zn_lBw9--L_I0OSc8yu-n5M6uPHA7FaN_bJuDdI/pub?output=csv") 
+      d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vSXmjYAKLSLUGrLa4R9gOOAvyX-pkuSLeWiU7yTjZ_W_atm6HUZVA6P0SqFpbAou7UXYiiEn-RmGB3p/pub?output=csv"),
+      d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRgf2Ii6Z7AQPNV84SWdxd3qhcywWhKvExyoRqzVYAaY0ow5G6UNNHaI7L4t9FjLqqqzIAHgboNoBNj/pub?output=csv")
       ])
-      .then(([about, websites, projects, people]) => {
-        const data = {about, websites, projects, people};
+      .then(([about, projects]) => {
+        const data = {about, projects};
         console.log(data);
 
     // determine what page to render
