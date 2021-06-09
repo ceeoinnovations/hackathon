@@ -1,10 +1,10 @@
-export default function Navbar(page, items){
+export default function Navbar(about, items){
     return `
     <nav class="navbar">
         <ul>
-           ${page==='project'? (
+           ${about==='project'? (
                 `<li class="nav-title">
-                    <a href="/rogerslab/#projects">FUTURE EDUCATIONAL TECHNOLOGY TECHNOLOGY LAB</a>
+                    <a href="/rogerslab/#projects">${about[0].title}</a>
                 </li>`
            ):(
             `<li>
@@ -12,9 +12,6 @@ export default function Navbar(page, items){
             </li>
             <li>
                 <a href="#projects">PROJECTS</a>
-            </li>
-            <li>
-                <a href="#people">PEOPLE</a>
             </li>
             `
             )}
