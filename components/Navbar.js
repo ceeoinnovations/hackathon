@@ -4,7 +4,7 @@ export default function Navbar(about, items){
         <ul>
            ${about==='project'? (
                 `<li class="nav-title">
-                    <a href="/rogerslab/#projects">${about[0].title}</a>
+                    <a href="/hackathon">Go Back</a>
                 </li>`
            ):(
             `<li>
