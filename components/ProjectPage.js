@@ -19,7 +19,7 @@ export function ProjectDetail(d){
         <div class="content-wrapper">
             <br>
             <h1 class="title" style="font-size: 3rem; margin-bottom: 10px; text-align: left;">${d.title}</h1>
-            <div class="project-subtitle" style="color: #000000;">
+            <div class="project-subtitle">
                 ${d.subtitle}
         </div>
             
