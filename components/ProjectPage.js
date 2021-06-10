@@ -32,10 +32,8 @@ export function ProjectDetail(d){
         </div>
         
         <img src="${d.teaser}" div class="project-teaser">
-        <div class="project-img">
-            <img src="${d.image1}" div class="project-img-holder">
-            <img src="${d.image2}" div class="project-img-holder">
-        </div>
+        <img src="${d.image1}" div class="project-teaser">
+        <img src="${d.image2}" div class="project-teaser">
         <img src="${d.image3}" div class="project-teaser">
 
         <div class="row">
