@@ -7,12 +7,7 @@ export default function Navbar(about, items){
                     <a href="/hackathon">Go Back</a>
                 </li>`
            ):(
-            `<li>
-                <a href="#about">ABOUT</a>
-            </li>
-            <li>
-                <a href="#projects">PROJECTS</a>
-            </li>
+            `
             `
             )}
         </ul>
