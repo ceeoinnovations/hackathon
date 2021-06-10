@@ -100,13 +100,10 @@ nav ul{
     
 }
 
-
-
-
 li a {
     margin-right:1.5rem;
     text-decoration: none;
-    color: #fff;
+    color: #a7a6a6;
     font-size: 1.1rem
 }
 
@@ -298,7 +295,7 @@ section{
 }
 
 .project-title a:hover{
-    color: #3F7BE0;
+    color: #20d489;
 }
 
 .project-intro{
@@ -381,8 +378,8 @@ section{
 }
 
 .project-authors{
-    color: #bdbbbb;
-    margin-top: 15px;
+    color: #a7a6a6;
+    margin-top: 0px;
     /* text-align: center; */
 }
 

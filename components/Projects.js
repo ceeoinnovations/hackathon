@@ -25,7 +25,7 @@ export function ProjectItems(projects){
                     <div class="project-subtitle">
                         ${d.subtitle}<br>
                     </div>
-                    <div class="project-subtitle">
+                    <div class="project-authors">
                         ${d.authors}<br>
                     </div>
                     
