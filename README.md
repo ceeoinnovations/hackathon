@@ -1,5 +1,5 @@
-[GitHub Repository] (https://github.com/ceeoinnovations/hackathon-template)
-[Example Website] (https://ceeoinnovations.github.io/hackathon/)
+[GitHub Repository](https://github.com/ceeoinnovations/hackathon-template)
+[Example Website](https://ceeoinnovations.github.io/hackathon/)
 
 # How to build a Website Using Google Sheets #
 
