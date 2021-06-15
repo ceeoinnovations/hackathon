@@ -1,4 +1,3 @@
-import MaterialIcon from './MaterialIcon.js';
 export default function Projects(projects){
     return `
     
